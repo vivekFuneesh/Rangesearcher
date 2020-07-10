@@ -3,7 +3,7 @@ A simple webservice to save a data(eg. Person's traveled distance) at a given da
 
 3 end points are there..
 
-Tech used is spring boot.
+Tech used is spring boot, mongoDB.
 
 	@GetMapping("/totalDistance/{personId}")
 get Total Distance traveled by a person with given ID as 'personId'
